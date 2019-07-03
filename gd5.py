@@ -1,10 +1,8 @@
-a=int(input("First number:"))
-b=int(input("Second number:"))
-c=int(input("Third number:"))
-if (a>b) and (a>c):
-  largest=a
-elif (b>a) and (b>c):
-  largest=b
+a,b,c=map(int,input().split())
+if a>b and a>c:
+    print(a)
+elif b>c :
+    print(b)
 else:
-  largest=c
+    print(c)
   
