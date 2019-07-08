@@ -1,2 +1,2 @@
-go=str(input())
-print(len(go))
+gog=str(input())
+print(len(gog))
